@@ -1,6 +1,7 @@
 import React from "react";
 import mealsImage from "../../assets/meals.jpg";
 import classes from "./Header.module.css";
+import HeadCartButton from "./HeaderCartButton";
 
 const Header = props => {
     return (
@@ -9,7 +10,7 @@ const Header = props => {
 
         <header className = {classes.header}>
             <h1>React Meals</h1>
-            <button>Cart</button>
+            <HeadCartButton/>
         </header>
 
         <div className = {classes["main-image"]}>
